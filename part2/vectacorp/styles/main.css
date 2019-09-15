@@ -1,0 +1,71 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+}
+
+body {
+	width: 960px;
+	margin: 0;
+	margin-left: 20px;
+}
+
+ul:first-of-type { padding-left: 0; }
+ul:first-of-type ul { padding-left: 40px; }
+ul:first-of-type li { list-style: none; }
+
+
+a, h2 {
+	color: #CC1C0D;
+}
+
+h2 {
+	background-color: #DFE3E6;
+	border: 1px solid #929CA4;
+	border-radius: 5px;
+    padding: 8px;
+    line-height: 1;							/* Changed back to 1, to look like the screenshots provided */
+}
+
+p img, section:not(.pricing) img {
+	float: left;
+}
+
+p img {
+	margin: 8px 8px 0px 0px;
+}
+
+section:not(.pricing) img {
+	border-radius: 50px;
+	border: 3px solid #CC1C0D;
+	margin-right: 16px;
+}
+
+section p {
+	margin-top: 0px;
+}
+
+#vprospect, #vconvert, #vretain {
+	font-weight: bold;
+}
+
+
+
+
+.pricing div {
+	border: 1px solid #929CA4;
+	border-radius: 10px;
+	float: left;
+	width: 24%;
+	margin-right: 0.75%;
+	text-align: center;
+	padding-top: 1em;
+}
+
+.pricing div:last-of-type { padding-top: 31px; }
+
+.pricing h3 { font-size: 1.17em; }
+.pricing div:nth-of-type(1) h3 { border-top: 10px solid #CC1C0D }
+.pricing div:nth-of-type(2) h3 { border-top: 10px solid #37A4A4 }
+.pricing div:nth-of-type(3) h3 { border-top: 10px solid #685288 }
+.pricing div:nth-of-type(4) h3 { border-top: 10px solid #000000 }
